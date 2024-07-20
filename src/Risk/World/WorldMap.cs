@@ -1,4 +1,5 @@
-﻿using Risk.Teams;
+﻿using Risk.Loader;
+using Risk.Teams;
 
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,9 @@ namespace Risk.World
     {
         public OrderedDictionary Countries { get; set; }
 
-        public WorldMap()
+        public WorldMap(OrderedDictionary countries)
         {
-            CountryLoader countryLoader = new();
-            Countries = countryLoader.Transform();
+            Countries = countries; 
         }
 
         public void AddRelationship(string country1, string country2)
@@ -65,6 +65,11 @@ namespace Risk.World
             ListNeighbours(code);
 
             Console.ResetColor();
+        }
+
+        public void Profile(int index)
+        {
+            Profile(Countries[index].Code);
         }
     }
 }

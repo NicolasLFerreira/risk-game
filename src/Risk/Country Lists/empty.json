@@ -1,0 +1,9 @@
+﻿{
+  "Countries": [
+    {
+      "Name": "EMPTY",
+      "Code": "00",
+      "Neighbours": []
+    }
+  ]
+}

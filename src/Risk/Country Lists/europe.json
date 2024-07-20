@@ -1,0 +1,259 @@
+{
+  "Countries": [
+    {
+      "Name": "Albania",
+      "Code": "AL",
+      "Neighbours": [ "MK", "GR", "ME", "RS" ]
+    },
+    {
+      "Name": "Andorra",
+      "Code": "AD",
+      "Neighbours": [ "ES", "FR" ]
+    },
+    {
+      "Name": "Armenia",
+      "Code": "AM",
+      "Neighbours": [ "AZ", "GE", "IR", "TR" ]
+    },
+    {
+      "Name": "Austria",
+      "Code": "AT",
+      "Neighbours": [ "BG", "CH", "CZ", "DE", "HU", "IT", "LI", "SK", "SI" ]
+    },
+    {
+      "Name": "Azerbaijan",
+      "Code": "AZ",
+      "Neighbours": [ "AM", "GE", "IR", "KG", "TR", "UZ" ]
+    },
+    {
+      "Name": "Belarus",
+      "Code": "BY",
+      "Neighbours": [ "LT", "LV", "PL", "RU", "UA" ]
+    },
+    {
+      "Name": "Belgium",
+      "Code": "BE",
+      "Neighbours": [ "DE", "FR", "LU", "NL" ]
+    },
+    {
+      "Name": "Bosnia and Herzegovina",
+      "Code": "BA",
+      "Neighbours": [ "HR", "ME", "RS" ]
+    },
+    {
+      "Name": "Bulgaria",
+      "Code": "BG",
+      "Neighbours": [ "GR", "MK", "RO", "RS", "TR" ]
+    },
+    {
+      "Name": "Croatia",
+      "Code": "HR",
+      "Neighbours": [ "BA", "HU", "ME", "RS", "SI" ]
+    },
+    {
+      "Name": "Cyprus",
+      "Code": "CY",
+      "Neighbours": []
+    },
+    {
+      "Name": "Czech Republic",
+      "Code": "CZ",
+      "Neighbours": [ "AT", "DE", "PL", "SK" ]
+    },
+    {
+      "Name": "Denmark",
+      "Code": "DK",
+      "Neighbours": [ "DE" ]
+    },
+    {
+      "Name": "Estonia",
+      "Code": "EE",
+      "Neighbours": [ "LV", "RU" ]
+    },
+    {
+      "Name": "Finland",
+      "Code": "FI",
+      "Neighbours": [ "EE", "NO", "SE", "RU" ]
+    },
+    {
+      "Name": "France",
+      "Code": "FR",
+      "Neighbours": [ "BE", "DE", "ES", "IT", "LU", "MC", "CH" ]
+    },
+    {
+      "Name": "Georgia",
+      "Code": "GE",
+      "Neighbours": [ "AM", "AZ", "RU", "TR" ]
+    },
+    {
+      "Name": "Germany",
+      "Code": "DE",
+      "Neighbours": [ "BE", "CZ", "DK", "FR", "LU", "NL", "PL", "AT", "CH" ]
+    },
+    {
+      "Name": "Greece",
+      "Code": "GR",
+      "Neighbours": [ "AL", "BG", "MK", "TR" ]
+    },
+    {
+      "Name": "Hungary",
+      "Code": "HU",
+      "Neighbours": [ "AT", "BG", "HR", "RO", "SK", "SI", "UA" ]
+    },
+    {
+      "Name": "Iceland",
+      "Code": "IS",
+      "Neighbours": []
+    },
+    {
+      "Name": "Ireland",
+      "Code": "IE",
+      "Neighbours": [ "GB" ]
+    },
+    {
+      "Name": "Italy",
+      "Code": "IT",
+      "Neighbours": [ "AT", "CH", "FR", "SI", "VA", "SM" ]
+    },
+    {
+      "Name": "Kazakhstan",
+      "Code": "KZ",
+      "Neighbours": [ "RU", "UA", "UZ", "TG", "CN" ]
+    },
+    {
+      "Name": "Kosovo",
+      "Code": "XK",
+      "Neighbours": [ "AL", "BA", "ME", "MK", "RS" ]
+    },
+    {
+      "Name": "Latvia",
+      "Code": "LV",
+      "Neighbours": [ "EE", "LT", "RU" ]
+    },
+    {
+      "Name": "Liechtenstein",
+      "Code": "LI",
+      "Neighbours": [ "AT", "CH" ]
+    },
+    {
+      "Name": "Lithuania",
+      "Code": "LT",
+      "Neighbours": [ "BY", "LV", "PL", "RU" ]
+    },
+    {
+      "Name": "Luxembourg",
+      "Code": "LU",
+      "Neighbours": [ "BE", "DE", "FR" ]
+    },
+    {
+      "Name": "Malta",
+      "Code": "MT",
+      "Neighbours": []
+    },
+    {
+      "Name": "Moldova",
+      "Code": "MD",
+      "Neighbours": [ "BY", "RO", "UA" ]
+    },
+    {
+      "Name": "Monaco",
+      "Code": "MC",
+      "Neighbours": [ "FR", "IT" ]
+    },
+    {
+      "Name": "Montenegro",
+      "Code": "ME",
+      "Neighbours": [ "AL", "BA", "HR", "RS" ]
+    },
+    {
+      "Name": "Netherlands",
+      "Code": "NL",
+      "Neighbours": [ "BE", "DE" ]
+    },
+    {
+      "Name": "North Macedonia",
+      "Code": "MK",
+      "Neighbours": [ "AL", "BG", "GR", "RS", "XK" ]
+    },
+    {
+      "Name": "Norway",
+      "Code": "NO",
+      "Neighbours": [ "SE" ]
+    },
+    {
+      "Name": "Poland",
+      "Code": "PL",
+      "Neighbours": [ "AT", "BY", "CZ", "DE", "LT", "RU", "SK", "UA" ]
+    },
+    {
+      "Name": "Portugal",
+      "Code": "PT",
+      "Neighbours": [ "ES" ]
+    },
+    {
+      "Name": "Romania",
+      "Code": "RO",
+      "Neighbours": [ "BG", "HU", "MD", "RS", "UA" ]
+    },
+    {
+      "Name": "Russia",
+      "Code": "RU",
+      "Neighbours": [ "BY", "EE", "FI", "GE", "KZ", "LV", "LT", "MD", "NO", "UA" ]
+    },
+    {
+      "Name": "San Marino",
+      "Code": "SM",
+      "Neighbours": [ "IT" ]
+    },
+    {
+      "Name": "Serbia",
+      "Code": "RS",
+      "Neighbours": [ "AL", "BA", "BG", "HR", "HU", "MK", "ME", "RO" ]
+    },
+    {
+      "Name": "Slovakia",
+      "Code": "SK",
+      "Neighbours": [ "AT", "CZ", "HU", "PL", "UA" ]
+    },
+    {
+      "Name": "Slovenia",
+      "Code": "SI",
+      "Neighbours": [ "AT", "HR", "IT", "HU" ]
+    },
+    {
+      "Name": "Spain",
+      "Code": "ES",
+      "Neighbours": [ "AD", "FR", "GT", "PT", "MC" ]
+    },
+    {
+      "Name": "Sweden",
+      "Code": "SE",
+      "Neighbours": [ "FI", "NO" ]
+    },
+    {
+      "Name": "Switzerland",
+      "Code": "CH",
+      "Neighbours": [ "AT", "DE", "FR", "IT", "LI" ]
+    },
+    {
+      "Name": "Turkey",
+      "Code": "TR",
+      "Neighbours": [ "AM", "AZ", "BG", "GE", "GR", "IR", "IQ", "SY" ]
+    },
+    {
+      "Name": "Ukraine",
+      "Code": "UA",
+      "Neighbours": [ "BY", "HU", "MD", "PL", "RU", "RO", "SK" ]
+    },
+    {
+      "Name": "United Kingdom",
+      "Code": "GB",
+      "Neighbours": [ "IE" ]
+    },
+    {
+      "Name": "Vatican City",
+      "Code": "VA",
+      "Neighbours": [ "IT" ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Countries": [
+    {
+      "Name": "Argentina",
+      "Code": "AR",
+      "Neighbours": [ "BO", "BR", "CL", "PY", "UY" ]
+    },
+    {
+      "Name": "Bolivia",
+      "Code": "BO",
+      "Neighbours": [ "AR", "BR", "CL", "PY", "PE" ]
+    },
+    {
+      "Name": "Brazil",
+      "Code": "BR",
+      "Neighbours": [ "AR", "BO", "CL", "CO", "GF", "PY", "SR", "UY", "VE" ]
+    },
+    {
+      "Name": "Chile",
+      "Code": "CL",
+      "Neighbours": [ "AR", "BO", "PE" ]
+    },
+    {
+      "Name": "Colombia",
+      "Code": "CO",
+      "Neighbours": [ "BR", "EC", "PE", "PY", "VE" ]
+    },
+    {
+      "Name": "Ecuador",
+      "Code": "EC",
+      "Neighbours": [ "CO", "PE" ]
+    },
+    {
+      "Name": "Guyana",
+      "Code": "GY",
+      "Neighbours": [ "BR", "SR", "VE" ]
+    },
+    {
+      "Name": "Paraguay",
+      "Code": "PY",
+      "Neighbours": [ "AR", "BO", "BR" ]
+    },
+    {
+      "Name": "Peru",
+      "Code": "PE",
+      "Neighbours": [ "BO", "BR", "CL", "CO", "EC" ]
+    },
+    {
+      "Name": "Suriname",
+      "Code": "SR",
+      "Neighbours": [ "BR", "GF", "GY" ]
+    },
+    {
+      "Name": "Uruguay",
+      "Code": "UY",
+      "Neighbours": [ "AR", "BR" ]
+    },
+    {
+      "Name": "Venezuela",
+      "Code": "VE",
+      "Neighbours": [ "BR", "CO", "GY", "SR" ]
+    }
+  ]
+}

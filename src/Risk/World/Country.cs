@@ -44,7 +44,7 @@ namespace Risk.World
 
         public Country(string name, string countryCode) : this(name, countryCode, TeamColour.None) { }
 
-        public Country() : this("empty", "xx") { }
+        public Country() : this("EMPTY", "00") { }
 
         // Unit handling
 

@@ -4,32 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json;
+using Risk.World;
 
-namespace Risk.World
+namespace Risk.Loader
 {
     internal class CountryLoader
     {
-        // Classes for the raw data
-
-        private class CountriesList
-        {
-            public CountryInfo[]? Countries { get; set; }
-        }
-
-        private class CountryInfo
-        {
-            public string? Name { get; set; }
-            public string? Code { get; set; }
-            public string[]? Neighbours { get; set; }
-        }
-
-        // Default path to country JSON file
-        private const string defaultPath = @"..\..\..\World\countries.json";
-
         // List of country objects from JSON file
         CountriesList RawCountries { get; }
 
-        public CountryLoader(string path = defaultPath)
+        public CountryLoader(string path)
         {
             // Load from test.json
             string jsonString = File.ReadAllText(path);
@@ -75,6 +59,20 @@ namespace Risk.World
             }
 
             return countries;
+        }
+
+        // Classes for the raw data
+
+        private class CountriesList
+        {
+            public CountryInfo[]? Countries { get; set; }
+        }
+
+        private class CountryInfo
+        {
+            public string? Name { get; set; }
+            public string? Code { get; set; }
+            public string[]? Neighbours { get; set; }
         }
     }
 }
