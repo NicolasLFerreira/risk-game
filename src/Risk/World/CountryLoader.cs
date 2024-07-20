@@ -24,7 +24,7 @@ namespace Risk.World
         }
 
         // Default path to country JSON file
-        private const string defaultPath = @"C:\Users\nicol\source\repos\Risk\src\Risk\World\countries.json";
+        private const string defaultPath = @"..\..\..\World\countries.json";
 
         // List of country objects from JSON file
         CountriesList RawCountries { get; }
