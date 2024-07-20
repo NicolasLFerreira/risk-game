@@ -1,0 +1,24 @@
+﻿{
+  "Countries": [
+    {
+      "Name": "Brasil",
+      "Code": "br",
+      "Neighbours": [ "uy", "ar" ]
+    },
+    {
+      "Name": "Argentina",
+      "Code": "ar",
+      "Neighbours": [ "br", "uy", "cl" ]
+    },
+    {
+      "Name": "Uruguay",
+      "Code": "uy",
+      "Neighbours": [ "ar", "br" ]
+    },
+    {
+      "Name": "Chile",
+      "Code": "cl",
+      "Neighbours": [ "ar" ]
+    }
+  ]
+}
