@@ -27,7 +27,7 @@ namespace Risk
             get
             {
                 InternalDictionary.TryGetValue(key, out Country? c);
-                return c ?? new("EMPTY", "xx");
+                return c ?? new("EMPTY", "00");
             }
         }
 

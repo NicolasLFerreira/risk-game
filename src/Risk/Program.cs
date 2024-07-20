@@ -2,6 +2,7 @@
 using Risk.Teams;
 
 using System;
+using Risk.Loader;
 
 namespace Risk
 {
@@ -10,18 +11,13 @@ namespace Risk
     {
         static void Main(string[] args)
         {
-            WorldMap wm = new();
+            FileSelector fileSelector = new();
+            CountryLoader countryLoader = new(fileSelector.SelectFile(1));
+            WorldMap worldMap = new(countryLoader.Transform());
 
-            wm.ListAll();
-            Console.WriteLine($"{wm.AreNeighbours("br", "uy")}");
-            Console.WriteLine($"{wm.AreNeighbours("br", "cl")}");
+            worldMap.Profile(0);
             Console.WriteLine();
 
-            wm.Countries["br"].Team = TeamColour.Green;
-            wm.Countries["uy"].Team = TeamColour.Red;
-
-            wm.Profile("br");
-            wm.Profile("uy");
             return;
         }
     }
